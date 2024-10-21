@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Londrina+Sketch&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
+  <title>Grid</title>
+</head>
+
+<style>
+  html {
+    font-size: 62.5%;
+    font-family: "Londrina Sketch", sans-serif;
+  }
+
+  body {
+    margin: 75px;
+  }
+
+  .container {
+    display: grid;
+    
+    grid-template-columns: repeat(3, 150px);
+    grid-template-rows: repeat(3, 150px);
+
+    grid-gap: .5rem;
+    
+    justify-content: center;
+    align-content: center;
+  }
+
+  .box-1 {
+    background-color: aquamarine;
+  }
+
+  .box-2 {
+    background-color: blueviolet;
+  }
+
+  .box-3 {
+    background-color: darkcyan;
+  }
+
+  .box-4 {
+    background-color: greenyellow;
+  }
+
+  .box-5 {
+    background-color: lightcoral;
+  }
+
+  .box-6 {
+    background-color: violet;
+  }
+
+  .box-7 {
+    background-color: chocolate;
+  }
+
+  .box-8 {
+    background-color: lightskyblue;
+  }
+
+  .box-9 {
+    background-color: darkmagenta;
+  }
+
+  .box {
+    display: flex;
+    font-weight: 600;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+  }
+</style>
+
+<body>
+  <div class="container">
+    <div class="box box-1">1</div>
+    <div class="box box-2">2</div>
+    <div class="box box-3">3</div>
+    <div class="box box-4">4</div>
+    <div class="box box-5">5</div>
+    <div class="box box-6">6</div>
+    <div class="box box-7">7</div>
+    <div class="box box-8">8</div>
+    <div class="box box-9">9</div>
+  </div>
+</body>
+
+</html>
